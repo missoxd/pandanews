@@ -7,6 +7,8 @@ const staticAssets = [
 	'./images/sadpanda.gif'
 ];
 
+// teste
+
 self.addEventListener('install', async e => {
 	console.log('SW install');
 
