@@ -42,7 +42,7 @@ function createArticle(article) {
 		<div class="one-half column">
 			<h4>${article.title}</h4>
 			<a href="${article.url}">Veja mais</a>
-			<img src="${article.urlToImage}" width="600" heigth="200">
+			<img src="${article.urlToImage}">
 			<p>${article.description}</p>
 		</div>
 	</div>`;
