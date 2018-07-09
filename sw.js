@@ -12,7 +12,7 @@ const staticAssets = [
 self.addEventListener('install', async e => {
 	console.log('SW install');
 
-	const cache = await	caches.open('pandanews-static');
+	const cache = await caches.open('pandanews-static');
 	cache.addAll(staticAssets);
 });
 
