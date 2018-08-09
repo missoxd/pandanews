@@ -26,7 +26,7 @@ self.addEventListener('activate', function(event) {
 					// Return true if you want to remove this cache,
 					// but remember that caches are shared across
 					// the whole origin
-					return true;
+					return false;
 		  		}).map(function(cacheName) {
 					return caches.delete(cacheName);
 		  		})
